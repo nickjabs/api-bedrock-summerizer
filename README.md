@@ -22,7 +22,7 @@ Before You Begin
 ![Alt text](screenshots/boto3-version-1.28.72.png)
 <br> if not you will need to create an extra layer and attach it to your lambda function <br> 
 <br>  here the reference how to do so : <br>
-<br>https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html <br>
+https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html <br>
 
 
 🛠️ Create a Boto3 client connection with Bedrock. Refer to the Bedrock Runtime documentation. <br>

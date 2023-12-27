@@ -12,23 +12,21 @@ Before You Begin
 
 🟢 Enable foundational model in your AWS Account. <br>
 ![Alt text](<screenshots/Screenshot 2023-12-27 153006.png>)
+
 🧩 Create a Lambda function. <br>
 
-Use the following command to check the version: <code > print(boto3.<code >__version__</code >) </code > <br>
-Upgrade the Boto3 version for AWS Lambda Function using Lambda Layer: <br>
-
-Add Version Layer ARN. <br>
-
-🔗 Refer to this helpful link for resolving runtime errors: AWS Knowledge Center - Lambda Python Runtime Errors
+🔗 Refer to this helpful link for resolving runtime errors:
 <br> https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html <br>
+
 <br> 🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
-<br>Guidance on Writing the Lambda Function <br>
 
-
-
+<br> if not you will need to create an extra layer and attach it to your lambda function <br> 
+<br>  here the reference how to do so : <br>
+<br>https://repost.aws/knowledge-center/lambda-python-runtime-errors <br>
 
 
 🛠️ Create a Boto3 client connection with Bedrock. Refer to the Bedrock Runtime documentation. <br>
+<br>https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html<br>
 📥 Create a Request Syntax. Fetch details from the console; the body should be a JSON object. <br>
 📜 Convert Streaming Body to Byte and then Byte to String. <br>
 Print the Event. <br>
@@ -57,11 +55,11 @@ Your response should confirm the correct Lambda invocation.
 Setting Up REST API using AWS Gateway
 
 🌐 REST API Gateway:
+![Alt text](screenshots/api-gw.png)
 API Gateway - Method Request:
 
-
-
-
 Integration Request and Mapping Templates.
+![Alt text](screenshots/integration-request-settings.png)
 API Deployment.
+
 🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results.

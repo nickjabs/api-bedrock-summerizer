@@ -1,8 +1,8 @@
 🖼️ Project Overview
 
 # Project Description: 
-User makes an API call via AWS API Gateway. The code resides in a Lambda Function triggering AWS Bedrock [cohere AI foundational model](https://cohere.com/models/command)
-. Users get a response back, summarizing prompts.
+User makes an API call via AWS API Gateway. The code resides in a Lambda Function triggering AWS Bedrock <br>[cohere AI foundational model](https://cohere.com/models/command) <br>
+<br> Users get a response back, summarizing prompts. <br>
 
 ![Alt text](screenshots/bedrock-demo.drawio.svg)
 

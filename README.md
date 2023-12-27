@@ -11,9 +11,10 @@ Limitation: 📏 Size of the input prompt for summarization.
 Before You Begin
 
 🟢 Enable foundational model in your AWS Account. <br>
+![Alt text](<screenshots/Screenshot 2023-12-27 153006.png>)
 🧩 Create a Lambda function. <br>
 
-Use the following command to check the version: <code > print(boto3.__version__) </code > <br>
+Use the following command to check the version: <code > print(boto3.<code >__version__</code >) </code > <br>
 Upgrade the Boto3 version for AWS Lambda Function using Lambda Layer: <br>
 Add Version Layer ARN. <br>
 

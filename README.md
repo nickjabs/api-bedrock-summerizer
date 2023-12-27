@@ -22,7 +22,7 @@ Before You Begin
 ![Alt text](screenshots/boto3-version-1.28.72.png)
 <br> if not you will need to create an extra layer and attach it to your lambda function <br> 
 <br>  here the reference how to do so : <br>
-<br>https://repost.aws/knowledge-center/lambda-python-runtime-errors <br>
+<br>https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html <br>
 
 
 🛠️ Create a Boto3 client connection with Bedrock. Refer to the Bedrock Runtime documentation. <br>
@@ -65,4 +65,4 @@ Your response should confirm the correct Lambda invocation.
 <br>![Alt text](screenshots/URL-query-string-parameters.png)<br>
 🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results.
 
-The code, written in Python, is included in this repository. You can freely modify it to suit your specific requirements. If you have any questions or need further assistance, don't hesitate to reach out to me via LinkedIn
+The code, written in Python, is included in this repository. You can freely modify it to suit your specific requirements. If you have any questions or need further assistance, don't hesitate to reach out to me via [LinkedIn](https://www.linkedin.com/in/nickjabs/)

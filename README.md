@@ -1,5 +1,5 @@
 
-![Alt text](../../../Desktop/123bedrock-demo.drawio.svg)
+![Alt text](screenshots/bedrock-demo.drawio.svg)
 
 <head>
     <meta charset="UTF-8">

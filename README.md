@@ -62,6 +62,7 @@ Your response should confirm the correct Lambda invocation.
 
 <br> API Deployment. <br>
 <br>![Alt text](screenshots/edit-method-GET.png)<br>
+![Alt text](screenshots/deploy-api-endpoint.png)
 
 
 <br>![Alt text](screenshots/URL-query-string-parameters.png)<br>

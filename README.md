@@ -53,16 +53,19 @@ Your response should confirm the correct Lambda invocation.
 
 🌐 REST API Gateway: <br>
 <br> ![Alt text](screenshots/api-gw.png) <br>
-<br> API Gateway - Method Request: <br>
 <br>![Alt text](screenshots/create-ressource.png)<br>
 
 <br> Integration Request and Mapping Templates. <br>
 
+![Alt text](screenshots/integration-request-settings.png)
+![Alt text](screenshots/mapping-template.png)
+
 <br> API Deployment. <br>
 <br>![Alt text](screenshots/edit-method-GET.png)<br>
-<br>![Alt text](screenshots/integration-request-settings.png)<br>
+
 
 <br>![Alt text](screenshots/URL-query-string-parameters.png)<br>
-🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results.
+
+<br>🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results. <br>
 
 The code, written in Python, is included in this repository. You can freely modify it to suit your specific requirements. If you have any questions or need further assistance, don't hesitate to reach out to me via [LinkedIn](https://www.linkedin.com/in/nickjabs/)

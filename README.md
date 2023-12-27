@@ -19,7 +19,7 @@ Before You Begin
 <br> https://repost.aws/knowledge-center/lambda-python-runtime-errors <br>
 
 <br> 🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
-
+![Alt text](screenshots/boto3-version-1.28.72.png)
 <br> if not you will need to create an extra layer and attach it to your lambda function <br> 
 <br>  here the reference how to do so : <br>
 <br>https://repost.aws/knowledge-center/lambda-python-runtime-errors <br>
@@ -58,5 +58,8 @@ Your response should confirm the correct Lambda invocation.
 <br> Integration Request and Mapping Templates. <br>
 <br> ![Alt text](screenshots/integration-request-settings.png) <br>
 <br> API Deployment. <br>
-
+<br>![Alt text](screenshots/edit-method-GET.png)<br>
+<br>![Alt text](screenshots/integration-request-settings.png)<br>
+<br>![Alt text](screenshots/create-ressource.png)<br>
+<br>![Alt text](screenshots/URL-query-string-parameters.png)<br>
 🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results.

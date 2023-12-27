@@ -26,7 +26,7 @@ https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html <br>
 
 
 🛠️ Create a Boto3 client connection with Bedrock. Refer to the Bedrock Runtime documentation. <br>
-<br>https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html<br>
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html<br>
 📥 Create a Request Syntax. Fetch details from the console; the body should be a JSON object. <br>
 📜 Convert Streaming Body to Byte and then Byte to String. <br>
 Print the Event. <br>

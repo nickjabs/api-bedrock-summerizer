@@ -20,10 +20,11 @@ Upgrade the Boto3 version for AWS Lambda Function using Lambda Layer: <br>
 Add Version Layer ARN. <br>
 
 🔗 Refer to this helpful link for resolving runtime errors: AWS Knowledge Center - Lambda Python Runtime Errors
-<br> https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html
-Guidance on Writing the Lambda Function <br>
+<br> https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html <br>
+<br> 🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
+<br>Guidance on Writing the Lambda Function <br>
 
-🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
+
 
 
 

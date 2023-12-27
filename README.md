@@ -58,6 +58,7 @@ Your response should confirm the correct Lambda invocation.
 <br> Integration Request and Mapping Templates. <br>
 
 ![Alt text](screenshots/integration-request-settings.png)
+![Alt text](<Screenshot 2023-12-27 161209.png>)
 ![Alt text](screenshots/mapping-template.png)
 
 <br> API Deployment. <br>

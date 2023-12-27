@@ -1,6 +1,7 @@
 🖼️ Project Overview
 
-Project Description: 🚀 User makes an API call via AWS API Gateway. The code resides in a Lambda Function triggering AWS Bedrock (cohere AI foundational model). Users get a response back, summarizing prompts.
+# Project Description: 
+User makes an API call via AWS API Gateway. The code resides in a Lambda Function triggering AWS Bedrock (cohere AI foundational model). Users get a response back, summarizing prompts.
 
 ![Alt text](screenshots/bedrock-demo.drawio.svg)
 
@@ -10,7 +11,7 @@ Before You Begin
 
 🟢 Enable foundational model in your AWS Account. <br>
 🧩 Create a Lambda function. <br>
-🕵️‍♂️ Check the Boto3 version. It should be > 1.28.63 to use Bedrock. <br>
+🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
 Use the following command to check the version: print(boto3.__version__) <br>
 Upgrade the Boto3 version for AWS Lambda Function using Lambda Layer: <br>
 Add Version Layer ARN. <br>

@@ -16,7 +16,7 @@ Before You Begin
 🧩 Create a Lambda function. <br>
 
 🔗 Refer to this helpful link for resolving runtime errors:
-<br> https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html <br>
+<br> https://repost.aws/knowledge-center/lambda-python-runtime-errors <br>
 
 <br> 🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
 

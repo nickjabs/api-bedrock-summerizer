@@ -38,10 +38,7 @@ modelId refers to the Language Model (LLM) used. Find more details about model p
 https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime/client/invoke_model.html
 
 Testing the code: <br> ![Alt text](screenshots/test-prompt.png) <br>
-python <br>
-Copy code <br>
-import json <br>
-import boto3 <br>
+
 
 # Lambda Function code...
 🛑 If you encounter Access Denied issues, create an IAM Role and attach it to the function.
@@ -54,12 +51,12 @@ Your response should confirm the correct Lambda invocation.
 
 Setting Up REST API using AWS Gateway
 
-🌐 REST API Gateway:
-![Alt text](screenshots/api-gw.png)
-API Gateway - Method Request:
+🌐 REST API Gateway: <br>
+![Alt text](screenshots/api-gw.png) <br>
+API Gateway - Method Request: <br>
 
-Integration Request and Mapping Templates.
-![Alt text](screenshots/integration-request-settings.png)
-API Deployment.
+Integration Request and Mapping Templates. <br>
+![Alt text](screenshots/integration-request-settings.png) <br>
+API Deployment. <br>
 
 🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results.

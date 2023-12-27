@@ -8,7 +8,7 @@ Limitation: 📏 Size of the input prompt for summarization.
 
 Before You Begin
 
-🟢 Enable foundational model in your AWS Account.
+🟢 Enable foundational model in your AWS Account. <br>
 🧩 Create a Lambda function.
 🕵️‍♂️ Check the Boto3 version. It should be > 1.28.63 to use Bedrock.
 Use the following command to check the version: print(boto3.__version__)

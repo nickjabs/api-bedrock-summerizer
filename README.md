@@ -65,4 +65,4 @@ Your response should confirm the correct Lambda invocation.
 <br>![Alt text](screenshots/URL-query-string-parameters.png)<br>
 🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results.
 
-the code is provides, feel free to adjust for the personal needs, if you have any questions feel free to contact me  https://www.linkedin.com/in/nickjabs/
+The code, written in Python, is included in this repository. You can freely modify it to suit your specific requirements. If you have any questions or need further assistance, don't hesitate to reach out to me via LinkedIn

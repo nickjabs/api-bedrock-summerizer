@@ -11,11 +11,13 @@ Before You Begin
 
 🟢 Enable foundational model in your AWS Account. <br>
 🧩 Create a Lambda function. <br>
-🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
-Use the following command to check the version: print(boto3.__version__) <br>
+
+Use the following command to check the version: <code > print(boto3.__version__) </code > <br>
 Upgrade the Boto3 version for AWS Lambda Function using Lambda Layer: <br>
 Add Version Layer ARN. <br>
-Check the Boto3 version again; it should be > 1.28.63. <br>
+
+🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
+
 🔗 Refer to this helpful link for resolving runtime errors: AWS Knowledge Center - Lambda Python Runtime Errors
 <br>
 Guidance on Writing the Lambda Function <br>
@@ -29,7 +31,9 @@ Update the Response Body. <br>
 Model ID and Testing <br>
 
 modelId refers to the Language Model (LLM) used. Find more details about model parameters here. <br>
-Testing the code: <br>
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime/client/invoke_model.html
+
+Testing the code: <br> ![Alt text](screenshots/test-prompt.png) <br>
 python <br>
 Copy code <br>
 import json <br>
@@ -38,8 +42,11 @@ import boto3 <br>
 # Lambda Function code...
 🛑 If you encounter Access Denied issues, create an IAM Role and attach it to the function.
 
+![Alt text](screenshots/AccessDenied.png)
+
 Your response should confirm the correct Lambda invocation.
  
+ ![Alt text](screenshots/test-prompt.png)
 
 Setting Up REST API using AWS Gateway
 

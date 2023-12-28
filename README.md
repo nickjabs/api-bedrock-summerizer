@@ -27,16 +27,16 @@ Detailed steps include creating a Boto3 client connection, forming the request s
 
 🛑 If encountering Access Denied issues, create an IAM Role and attach it to the function. Access Denied Screenshot
 
-![Alt text](screenshots/aws-bedrock-activate-ai.png)
 
-Setting Up REST API using AWS Gateway
+![Alt text](screenshots/AccessDenied.png)
+
 🌐 Setting up the REST API Gateway involves creating resources, integration requests, mapping templates, and API deployment. Configuration steps are provided with screenshots in the repository. <br>
 
-<br>![Alt text](screenshots/create-ressource.png)
-<br>![Alt text](screenshots/attach-lambda-function.png)
-<br>![Alt text](screenshots/mapping-template.png)
-<br>![Alt text](screenshots/URL-query-string-parameters.png)
-<br>![Alt text](screenshots/integration-request-settings.png)
+<br>![Alt text](screenshots/create-ressource.png) <br>
+<br>![Alt text](screenshots/attach-lambda-function.png) <br>
+<br>![Alt text](screenshots/mapping-template.png) <br>
+<br>![Alt text](screenshots/URL-query-string-parameters.png) <br>
+<br>![Alt text](screenshots/integration-request-settings.png) <br>
 
 <br>Testing
 

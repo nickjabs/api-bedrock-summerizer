@@ -1,6 +1,7 @@
-🖼️ Project Overview
-![Alt text](screenshots/bedrock-demo.drawio.svg)
-Project Description
+<br >🖼️ Project Overview <br>
+<br>![Alt text](screenshots/bedrock-demo.drawio.svg)<br>
+
+<br>Project Description<br>
 This project involves making an API call via AWS API Gateway, utilizing a Lambda Function connected to AWS Bedrock's foundational model from Cohere AI. Users receive responses summarizing prompts they provide.
 
 Project Overview Diagram

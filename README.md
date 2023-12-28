@@ -41,6 +41,7 @@ Detailed steps include creating a Boto3 client connection, forming the request s
 <br>Testing
 
 🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with provided resources or custom prompts.
+<br>![Alt text](screenshots/postman.png)<br>
 
 Endpoint for API
 The provided URL is an endpoint for an API that potentially performs text summarization based on the prompt query parameter. The query parameter is used to pass the text to be summarized. For example, the prompt "what day is it today" would trigger the API to generate a summary.
@@ -48,7 +49,7 @@ The provided URL is an endpoint for an API that potentially performs text summar
 Code
 The Python code for this project is included in this repository, ready for modification to suit specific requirements.
 
-Result : 
+<br> Basic UI / Result : <br>
 
 ![Alt text](screenshots/front-end-ui.png)
 

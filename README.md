@@ -1,73 +1,37 @@
 🖼️ Project Overview
 
-# Project Description: 
-User makes an API call via AWS API Gateway. The code resides in a Lambda Function triggering AWS Bedrock <br>[cohere AI foundational model](https://cohere.com/models/command) <br>
-<br> Users get a response back, summarizing prompts. <br>
+Project Description
+This project involves making an API call via AWS API Gateway, utilizing a Lambda Function connected to AWS Bedrock's foundational model from Cohere AI. Users receive responses summarizing prompts they provide.
 
-![Alt text](screenshots/bedrock-demo.drawio.svg)
+Project Overview Diagram
 
-Limitation: 📏 Size of the input prompt for summarization.
+Limitation
+📏 Input prompt size for summarization is limited.
 
 Before You Begin
+🟢 Enable the foundational model in your AWS Account. Screenshot Guide
 
-🟢 Enable foundational model in your AWS Account. <br>
-![Alt text](<screenshots/Screenshot 2023-12-27 153006.png>)
+🧩 Create a Lambda function. For resolving runtime errors, reference AWS Knowledge Center.
 
-🧩 Create a Lambda function. <br>
+🕵️‍♂️ Ensure Boto3 version is at least 1.28.63. Boto3 Version Check Guide. Create an extra layer and attach it to your lambda function if the version is lower. Layer Attachment Guide.
 
-🔗 Refer to this helpful link for resolving runtime errors:
-<br> https://repost.aws/knowledge-center/lambda-python-runtime-errors <br>
+🛠️ Create a Boto3 client connection with Bedrock, as detailed in the Bedrock Runtime documentation here.
 
-<br> 🕵️‍♂️ Check the Boto3 version. It should be at least  > <code >1.28.63 </code > to use Bedrock. <br>
-![Alt text](screenshots/boto3-version-1.28.72.png)
-<br> if not you will need to create an extra layer and attach it to your lambda function <br> 
-<br>  here the reference how to do so : <br>
-https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html <br>
+Lambda Function Code
+Detailed steps include creating a Boto3 client connection, forming the request syntax, and handling the response. Example code for invoking the model and testing is provided.
 
+🛑 If encountering Access Denied issues, create an IAM Role and attach it to the function. Access Denied Screenshot
 
-🛠️ Create a Boto3 client connection with Bedrock. Refer to the Bedrock Runtime documentation. <br>
-https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock.html<br>
-📥 Create a Request Syntax. Fetch details from the console; the body should be a JSON object. <br>
-📜 Convert Streaming Body to Byte and then Byte to String. <br>
-Print the Event. <br>
-Store the input in a Variable. <br>
-Update the Response Body. <br>
-Model ID and Testing <br>
+Setting Up REST API using AWS Gateway
+🌐 Setting up the REST API Gateway involves creating resources, integration requests, mapping templates, and API deployment. Configuration steps are provided with screenshots in the repository.
 
-modelId refers to the Language Model (LLM) used. Find more details about model parameters here. <br>
-https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-runtime/client/invoke_model.html
+Testing
+🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with provided resources or custom prompts.
 
-Testing the code: <br> ![Alt text](screenshots/test-prompt.png) <br>
+Endpoint for API
+The provided URL is an endpoint for an API that potentially performs text summarization based on the prompt query parameter. The query parameter is used to pass the text to be summarized. For example, the prompt "what day is it today" would trigger the API to generate a summary.
 
+Code
+The Python code for this project is included in this repository, ready for modification to suit specific requirements.
 
-# Lambda Function code...
-🛑 If you encounter Access Denied issues, create an IAM Role and attach it to the function.
-
-![Alt text](screenshots/AccessDenied.png)
-
-Your response should confirm the correct Lambda invocation.
- 
- ![Alt text](screenshots/test-prompt.png)
-
-# Setting Up REST API using AWS Gateway
-
-🌐 REST API Gateway: <br>
-<br> ![Alt text](screenshots/api-gw.png) <br>
-<br>![Alt text](screenshots/create-ressource.png)<br>
-
-<br> Integration Request and Mapping Templates. <br>
-
-![Alt text](screenshots/integration-request-settings.png)
-![Alt text](<Screenshot 2023-12-27 161209.png>)
-![Alt text](screenshots/mapping-template.png)
-
-<br> API Deployment. <br>
-<br>![Alt text](screenshots/edit-method-GET.png)<br>
-![Alt text](screenshots/deploy-api-endpoint.png)
-
-
-<br>![Alt text](screenshots/URL-query-string-parameters.png)<br>
-
-<br>🔍 Use meaningful log data or articles to test summarization effectiveness. For instance, consider testing with this resource. Observe and evaluate the summarization results. <br>
-
-The code, written in Python, is included in this repository. You can freely modify it to suit your specific requirements. If you have any questions or need further assistance, don't hesitate to reach out to me via [LinkedIn](https://www.linkedin.com/in/nickjabs/)
+For any inquiries or assistance, feel free to reach out via LinkedIn.

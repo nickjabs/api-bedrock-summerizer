@@ -1,0 +1,41 @@
+# Dependency directories
+/node_modules
+
+# Environment variables file
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore IDE specific files
+.vscode
+.idea
+
+# Ignore npm lockfiles
+package-lock.json
+yarn.lock
+
+# Ignore configuration files that may contain sensitive information
+config.js
+config.json
+
+# Ignore any build output
+/dist
+/build
+
+# Ignore any personal or environment-specific files
+*.local
+*.env.local
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store?
+
+# Ignore any backup files
+*~
+
+# Ignore any files generated during testing
+coverage/

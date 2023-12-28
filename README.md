@@ -37,6 +37,7 @@ Detailed steps include creating a Boto3 client connection, forming the request s
 <br>![Alt text](screenshots/mapping-template.png) <br>
 <br>![Alt text](screenshots/URL-query-string-parameters.png) <br>
 <br>![Alt text](screenshots/integration-request-settings.png) <br>
+<br>![Alt text](screenshots/deploy-api-endpoint.png)<br>
 
 <br>Testing
 
@@ -51,7 +52,7 @@ The Python code for this project is included in this repository, ready for modif
 
 <br> Basic UI / Result : <br>
 
-![Alt text](screenshots/front-end-ui.png)
+![Alt text](<screenshots/Screenshot 2023-12-27 195801.png>)
 
 
 
